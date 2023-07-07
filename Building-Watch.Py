@@ -43,9 +43,7 @@ os.system('pip install requests')
 os.system('clear')
 import requests
 from datetime import datetime
-def banner():
 
-banner()
 print('')
 print('')
     
